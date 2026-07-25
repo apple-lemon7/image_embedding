@@ -1,0 +1,70 @@
+# .NET build outputs
+bin/
+obj/
+artifacts/
+publish/
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# SQLite databases and transient journal files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# FAISS indexes
+*.faiss
+*.index
+
+# Large local AI model files/directories
+jinaai_jina-clip-v2/
+*.onnx
+*.onnx_data
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Visual Studio / JetBrains / VS Code user state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test and coverage outputs
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Logs, dumps, and temporary files
+search_results/
+*.log
+*.dmp
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
